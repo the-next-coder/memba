@@ -1,0 +1,18 @@
+{% extends "user/home_layout.html" %}
+{% block content %}
+<div class="content" style="background-color: white;padding:3em">
+    <h3>Post a New Topic</h3>
+    <form action="{{ url_for('newtopic') }}" method="post">
+        <div class="form-group row mb-3">
+            <label for="content" class="col-md-2">Post:</label>
+            <div class="col-md-6">
+                <textarea class="form-control" name="content" cols="20" rows="5"></textarea>
+            </div>
+        </div>
+
+        <div>
+            <button class="offset-2 col-6 btn btn-warning">Submit</button>
+        </div>
+    </form>
+ </div>
+{% endblock %}

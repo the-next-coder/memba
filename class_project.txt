@@ -1,0 +1,78 @@
+Product
+	product_id
+	product_name
+	product_desc
+	product_price
+
+Party
+	party_id
+	party_name
+	party_shortcode
+	party_logo
+	party_contact
+
+User
+	user_id
+	user_fname
+	user_lname
+	user_email
+	user_pwd
+	user_phone
+	user_lga
+	user_datereg
+	user_partyid
+
+state
+	state_id
+	state_name
+lga
+	lga_id
+	lga_name
+	lga_stateid
+
+Topics
+	topic_id
+	topic_title
+	topic_date
+	topic_userid
+	topic_status
+
+Comments
+	comment_id
+	comment_text
+	comment_userid
+	comment_date
+	comment_topicid
+
+Orders
+	order_id	
+	order_totamt
+	order_status
+	order_date
+	order_userid
+
+Orderdetails
+	det_id
+	det_orderid
+	det_productid
+	det_qty
+	det_amt
+
+Payments
+	pay_id
+	pay_amt
+	pay_orderid
+	pay_method
+	pay_date
+	pay_userid
+	pay_status
+
+Admin
+	admin_id
+	admin_username
+	admin_pwd
+
+
+
+	
+	

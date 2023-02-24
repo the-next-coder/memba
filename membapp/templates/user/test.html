@@ -1,0 +1,24 @@
+{% extends "user/home_layout.html"%}
+  
+{% block content %}
+<div class="content" style="background-color: white;padding:3em">
+  {{data}}
+
+    <p>{{ data.party_deets.party_name }}</p>
+   {# <!-- <table class="table table-striped">
+        <tr>
+            <th>Serial</th>
+            <th>Party Name</th>
+            <th></th>
+        </tr>
+        {% for d in data: %}
+            <tr>
+                <td>{{ loop.index }}.</td>
+                <td></td>
+                <td></td>
+            </tr>
+        {% endfor %}
+    </table> --> #}
+ </div>
+ 
+{% endblock %}
